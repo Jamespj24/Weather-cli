@@ -1,10 +1,12 @@
 {
   "name": "weather-cli",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Jamespj24/Weather-cli/issues"
   },
-  "homepage": "https://github.com/Jamespj24/Weather-cli#readme"
+  "homepage": "https://github.com/Jamespj24/Weather-cli#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.2",
+    "typescript": "^6.0.3"
+  }
 }
